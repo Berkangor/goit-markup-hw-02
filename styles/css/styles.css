@@ -1,218 +1,177 @@
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    color: #333;
-    /* Ana metin rengi */
-    line-height: 1.6;
-    /* Satır yüksekliği */
-    background-color: #f9f9f9;
-}
-
-/* Başlık */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
+    color: #434455;
     background-color: #ffffff;
 }
 
-#navbar ul {
-    display: flex;
-    list-style: none;
+ul {
+    list-style-type: none;
 }
 
-#navbar a {
+a {
     text-decoration: none;
-    color: #333;
-    font-weight: 700;
-    margin: 0 1rem;
+    color: #434455;
 }
 
-#navbar a:hover,
-#navbar-right a:hover {
-    color: #007bff;
-}
-
-/* İletişim Bilgileri */
-#navbar-right ul {
-    display: flex;
-    list-style: none;
-}
-
-#navbar-right a {
-    text-decoration: none;
-    color: #333;
-    margin: 0 0.5rem;
-}
-
-/* Ana İçerik */
-.effective-solution {
-    text-align: center;
-    padding: 4rem 2rem;
-    background-color: #f5f5f5;
-}
-
-.efective-title {
+.logo-nav {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 
-.efective-button {
-    padding: 0.75rem 1.5rem;
+.accent {
+    color: #2e2f42;
+}
+
+.studio {
     font-weight: 500;
-    font-size: 1rem;
-    background-color: #007bff;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.studio:hover,
+.studio:focus {
+    color: #404bbf;
+}
+
+.adress {
+    font-style: normal;
+}
+
+.adress .link-adress {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.adress .link-adress:hover,
+.adress .link-adress:focus {
+    color: #404bbf;
+}
+
+.hero-image {
     color: #ffffff;
-    border: none;
+    background-color: #2E2F42;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.hero-image .hero-button {
+    color: #ffffff;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
-    border-radius: 0.25rem;
-    transition: background-color 0.3s;
 }
 
-.efective-button:hover {
-    background-color: #0056b3;
+.hero-image .hero-button:hover,
+.hero-image .hero-button:focus {
+    background-color: #404BBF;
 }
 
-/* Purpose Bölümü */
-#purpose {
-    padding: 4rem 2rem;
+.benefits {
+    font-size: 0;
 }
 
-.purpose-title {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    color: #333;
-}
-
-.purpose-p {
-    font-size: 1rem;
-    margin-top: 0.5rem;
-    color: #555;
-}
-
-#purpose ul {
-    list-style: none;
-}
-
-/* Our Team Bölümü */
-.about-us ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    padding: 2rem 0;
-}
-
-.about-us li {
-    text-align: center;
-    width: 25%;
-}
-
-.about-us img {
-    width: 100%;
-    border-radius: 0.5rem;
-}
-
-.about-us h3 {
+.benefits-title {
     font-weight: 500;
-    font-size: 1.25rem;
-    color: #333;
-    margin-top: 0.5rem;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.about-us p {
-    font-size: 1rem;
-    color: #777;
+.benefits-p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-/* Our Portfolio Bölümü */
-#our-portfolio {
-    padding: 4rem 2rem;
+.team {
+    background-color: #f4f4fd;
 }
 
-.portfolio-title {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    color: #333;
+.team-title-one {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
     text-align: center;
 }
 
-#our-portfolio ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    list-style: none;
-    padding: 2rem 0;
+.team-mark {
+    background-color: #FFFFFF;
 }
 
-#our-portfolio li {
-    text-align: center;
-    width: 30%;
-    margin-bottom: 2rem;
-}
-
-#our-portfolio img {
-    width: 100%;
-    border-radius: 0.5rem;
-}
-
-.bankingapp-title,
-.cashless-title,
-.meditation-title,
-.taxi-title,
-.screen-title,
-.online-title {
-    font-size: 1.25rem;
+.team-title-two {
     font-weight: 500;
-    color: #333;
-    margin-top: 0.5rem;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-/* Footer */
+.team-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-title-one {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.portfolio-title-two {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 .footer-down {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 2rem;
-    font-size: 1rem;
+    background-color: #2E2F42;
+    color: #f4f4fd;
 }
 
-.footer-down a {
-    text-decoration: none;
-    color: #fff;
+.logo-nav-footer {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 
-.footer-down p {
-    font-size: 1rem;
-    margin-top: 1rem;
+.accent-footer {
+    color: #f4f4fd;
 }
 
-/* Etkileşimli Durumlar */
-a:hover,
-a:focus,
-button:hover,
-button:focus {
-    color: #007bff;
-}
-
-button:focus,
-a:focus {
-    outline: none;
+.footer-p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
