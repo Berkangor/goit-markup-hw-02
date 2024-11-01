@@ -2,164 +2,224 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
 }
 
-/* Header and Navigation */
-.site-header {
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
     background-color: #2e2f42;
 }
 
-.main-nav .logo {
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
+    margin-right: 20px;
+    text-transform: uppercase;
 }
 
-.logo-span {
-    color: #2e2f42;
+#navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.nav-list {
+#navbar li {
+    margin-right: 15px;
+}
+
+#navbar li a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#navbar li a:hover,
+#navbar li a:focus {
+    color: #404bbf;
+}
+
+#navbar-right ul {
     list-style: none;
     display: flex;
     gap: 15px;
 }
 
-.nav-link {
-    font-weight: 500;
+#navbar-right a {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-decoration: none;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
-}
-
-/* Address Section */
-.contact-info {
-    font-style: normal;
-}
-
-.contact-list {
-    list-style: none;
-}
-
-.contact-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-    color: #404bbf;
-}
-
-/* Section One */
-.section-one {
-    background-color: #2e2f42;
-}
-
-.main-heading {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
-.portfolio-btn {
+#navbar-right a:hover,
+#navbar-right a:focus {
+    color: #404bbf;
+}
+
+/* Ana İçerik */
+main {
+    padding: 40px 20px;
+}
+
+/* Başlık Bölümü */
+#title-main {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#title-main h1 {
+    font-size: 48px;
+    color: #2e2f42;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+#title-main button {
     background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-    border: none;
+    color: #FFFFFF;
     padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.04em;
 }
 
-.portfolio-btn:hover,
-.portfolio-btn:focus {
-    background-color: #404BBF;
+#title-main button:hover,
+#title-main button:focus {
+    background-color: #404bbf;
 }
 
-/* Section Two */
-.section-two {
-    background-color: #f4f4fd;
+/* Purpose Bölümü */
+#purpose {
+    margin-bottom: 50px;
 }
 
-.section-title {
+#purpose h2 {
     font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-.service-list {
+#purpose ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
-.service-item {
+#purpose li {
     background-color: #FFFFFF;
     padding: 20px;
-    margin: 10px 0;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
 }
 
-.service-title {
+#purpose h3 {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 10px;
 }
 
-.service-description {
+#purpose p {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Our Team Bölümü */
+#about-us {
+    margin-bottom: 50px;
+}
+
+#about-us h2 {
+    font-size: 36px;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#about-us ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#about-us li {
+    width: calc(50% - 20px);
+    text-align: center;
+}
+
+#about-us img {
+    width: 264px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+#about-us h3 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2e2f42;
+    margin-bottom: 5px;
+}
+
+#about-us p {
+    font-size: 16px;
+    line-height: 1.5;
     color: #434455;
 }
 
 /* Footer */
-.site-footer {
+footer {
     background-color: #2e2f42;
     padding: 20px;
     text-align: center;
+    color: #FFFFFF;
 }
 
-.footer-logo {
+footer a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
-.footer-logo-span {
-    color: #2e2f42;
-}
-
-.footer-text {
-    line-height: 1.5;
+footer p {
+    font-size: 14px;
     color: #F4F4FD;
-    letter-spacing: 0.02em;
+    line-height: 1.5;
+    margin-top: 10px;
 }
