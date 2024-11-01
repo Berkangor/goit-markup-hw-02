@@ -13,7 +13,7 @@ a {
     color: #434455;
 }
 
-.logo-nav {
+.studio-s {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -27,15 +27,15 @@ a {
     color: #2e2f42;
 }
 
-.studio {
+.studio-a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
-.studio:hover,
-.studio:focus {
+.studio-a:hover,
+.studio-a:focus {
     color: #404bbf;
 }
 
@@ -43,29 +43,29 @@ a {
     font-style: normal;
 }
 
-.adress .link-adress {
+.adress .studio-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.adress .link-adress:hover,
-.adress .link-adress:focus {
+.adress .studio-link:hover,
+.adress .studio-link:focus {
     color: #404bbf;
 }
 
-.hero-image {
+.effective-solution {
     color: #ffffff;
     background-color: #2E2F42;
     text-align: center;
 }
 
-.hero-title {
+.efective-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
 
-.hero-image .hero-button {
+.effective-solution .efective-button {
     color: #ffffff;
     background-color: #4D5AE5;
     font-weight: 500;
@@ -74,16 +74,16 @@ a {
     cursor: pointer;
 }
 
-.hero-image .hero-button:hover,
-.hero-image .hero-button:focus {
+.effective-solution .efective-button:hover,
+.effective-solution .efective-button:focus {
     background-color: #404BBF;
 }
 
-.benefits {
+.purpose-tit {
     font-size: 0;
 }
 
-.benefits-title {
+.purpose-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -91,16 +91,16 @@ a {
     color: #2e2f42;
 }
 
-.benefits-p {
+.purpose-p {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.team {
+.about-us {
     background-color: #f4f4fd;
 }
 
-.team-title-one {
+.about-us1 {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -109,11 +109,11 @@ a {
     text-align: center;
 }
 
-.team-mark {
+.about-li {
     background-color: #FFFFFF;
 }
 
-.team-title-two {
+.about-us2 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -121,13 +121,13 @@ a {
     color: #2e2f42;
 }
 
-.team-p {
+.about-usp {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.portfolio-title-one {
+.portfolio-title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -136,7 +136,7 @@ a {
     color: #2e2f42;
 }
 
-.portfolio-title-two {
+.portfolio-title2 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -144,7 +144,7 @@ a {
     color: #2e2f42;
 }
 
-.portfolio-p {
+.portfolio-titlep {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -156,7 +156,7 @@ a {
     color: #f4f4fd;
 }
 
-.logo-nav-footer {
+.footer-downa {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -170,7 +170,7 @@ a {
     color: #f4f4fd;
 }
 
-.footer-p {
+.footer-downp {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
